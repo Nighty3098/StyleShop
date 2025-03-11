@@ -91,7 +91,7 @@
       "price": 130,
       "image": "https://images.unsplash.com/photo-1608063615781-e2ef8c73d114?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
       "description": "Warm winter puffer jacket with hood.",
-      "date": "2023-11-01"
+      "date": "2025-11-01"
     },
     {
       "id": 14,
@@ -99,7 +99,7 @@
       "price": 180,
       "image": "https://images.unsplash.com/photo-1670080589800-6416c8ce8a14?w=300&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fENodW5reSUyMEtuaXQlMjBTd2VhdGVyfGVufDB8fDB8fHww",
       "description": "Cozy chunky knit sweater for cold weather.",
-      "date": "2023-11-05"
+      "date": "2025-11-05"
     },
     {
       "id": 103,
@@ -107,31 +107,15 @@
       "price": 199,
       "image": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
       "description": "Stylish leather Chelsea boots.",
-      "date": "2023-10-28"
+      "date": "2025-10-28"
     },
     {
       "id": 104,
       "title": "Cashmere Scarf",
-      "price": 3990,
+      "price": 84,
       "image": "https://images.unsplash.com/photo-1601379327928-bedfaf9da2d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
       "description": "Soft cashmere scarf for cold weather.",
-      "date": "2023-11-02"
-    },
-    {
-      "id": 105,
-      "title": "Crossbody Bag",
-      "price": 7990,
-      "image": "https://images.unsplash.com/photo-1590739225287-bd31519780c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80",
-      "description": "Stylish crossbody bag made from genuine leather.",
-      "date": "2023-11-10"
-    },
-    {
-      "id": 106,
-      "title": "Leather Gloves",
-      "price": 2990,
-      "image": "https://images.unsplash.com/photo-1584359983106-ef9596d73173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-      "description": "Elegant leather gloves with lining.",
-      "date": "2023-11-08"
+      "date": "2025-11-02"
     }
   ],
   "saleProducts": [

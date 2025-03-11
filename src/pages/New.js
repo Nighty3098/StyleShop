@@ -23,7 +23,7 @@ const New = ({ addToCart }) => {
       </div>
       
       <div className="new-collection-info">
-        <h2>Winter Collection 2023/2024</h2>
+        <h2>Winter Collection 2024/2025</h2>
         <p>
           Introducing our new winter collection that combines elegance,
           comfort, and practicality. Each piece is created with attention to detail 
