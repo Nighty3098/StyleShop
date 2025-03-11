@@ -15,96 +15,35 @@ const Header = ({ cartItemsCount, toggleCart }) => {
       <div className="header-content">
         <Link to="/" className="logo">LUXE</Link>
         
-        <div className="burger-menu" onClick={toggleMenu}>
-          <div className={`burger-bar ${isMenuOpen ? 'open' : ''}`}></div>
-          <div className={`burger-bar ${isMenuOpen ? 'open' : ''}`}></div>
-          <div className={`burger-bar ${isMenuOpen ? 'open' : ''}`}></div>
+        <div className="mobile-controls">
+          <div className="mobile-cart-icon" onClick={toggleCart}>
+            <FontAwesomeIcon icon={faCartShopping} />
+            {cartItemsCount > 0 && <span className="mobile-cart-count">{cartItemsCount}</span>}
+          </div>
+          
+          <div className={`menu-toggle ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-
-        <nav className={`navigation ${isMenuOpen ? 'open' : ''}`}>
+        
+        <nav className={`navigation ${isMenuOpen ? 'active' : ''}`}>
           <ul className="nav-links">
-            <li><Link to="/">HOME</Link></li>
-            <li><Link to="/catalog">CATALOG</Link></li>
-            <li><Link to="/new">NEW</Link></li>
-            <li><Link to="/sale">SALE</Link></li>
-            <li><Link to="/about">ABOUT</Link></li>
-            <li>
+            <li><Link to="/" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
+            <li><Link to="/catalog" onClick={() => setIsMenuOpen(false)}>Catalog</Link></li>
+            <li><Link to="/new" onClick={() => setIsMenuOpen(false)}>New</Link></li>
+            <li><Link to="/sale" onClick={() => setIsMenuOpen(false)}>Sale</Link></li>
+            <li><Link to="/about" onClick={() => setIsMenuOpen(false)}>About</Link></li>
+            <li className="desktop-cart-icon">
               <div className="cart-icon" onClick={toggleCart}>
-                <span><FontAwesomeIcon icon={faCartShopping} /></span>
+                <FontAwesomeIcon icon={faCartShopping} />
                 {cartItemsCount > 0 && <span className="cart-count">{cartItemsCount}</span>}
               </div>
             </li>
           </ul>
         </nav>
       </div>
-      <style jsx>{`
-        @media (max-width: 768px) {
-          .burger-menu {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            width: 30px;
-            height: 20px;
-            cursor: pointer;
-            z-index: 1000;
-          }
-
-          .burger-bar {
-            width: 100%;
-            height: 3px;
-            background-color: #000;
-            transition: all 0.3s ease-in-out;
-          }
-
-          .burger-bar.open:nth-child(1) {
-            transform: rotate(45deg) translate(6px, 6px);
-          }
-
-          .burger-bar.open:nth-child(2) {
-            opacity: 0;
-          }
-
-          .burger-bar.open:nth-child(3) {
-            transform: rotate(-45deg) translate(6px, -6px);
-          }
-
-          .navigation {
-            position: fixed;
-            top: 0;
-            right: -100%;
-            width: 70%;
-            height: 100vh;
-            background-color: white;
-            padding: 80px 20px;
-            transition: right 0.3s ease-in-out;
-            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-          }
-
-          .navigation.open {
-            right: 0;
-          }
-
-          .nav-links {
-            flex-direction: column;
-            align-items: flex-start;
-          }
-
-          .nav-links li {
-            margin: 15px 0;
-            width: 100%;
-          }
-
-          .nav-links a {
-            font-size: 1.2rem;
-          }
-        }
-
-        @media (min-width: 769px) {
-          .burger-menu {
-            display: none;
-          }
-        }
-      `}</style>
     </header>
   );
 };

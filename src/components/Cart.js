@@ -36,7 +36,8 @@ const Cart = ({ cartItems, removeFromCart, setCartItems }) => {
       <h2 className="cart-title">Your Cart</h2>
       
       {cartItems.map(item => (
-        <div key={item.id} className="cart-item">
+        <div key={item.id} className="cart-item" style={{ display: "flex", flexDirection: "column", justifyContent: "flex-start"}}>
+          <div style={{ display: "flex", flexDirection: "row", justifyContent: "flex-start"}}>
           <img 
             src={item.image} 
             alt={item.title} 
@@ -45,6 +46,7 @@ const Cart = ({ cartItems, removeFromCart, setCartItems }) => {
           <div className="cart-item-details">
             <h3 className="cart-item-title">{item.title}</h3>
             <p className="cart-item-price">{formatPrice(item.price)}</p>
+          </div>
           </div>
           <div className="cart-item-actions">
             <div className="quantity-control">

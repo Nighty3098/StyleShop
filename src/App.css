@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
 }
 
 .app {
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,6 +19,7 @@ body {
 
 main {
   flex: 1;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
@@ -88,10 +91,11 @@ main {
 }
 
 /* Product List Styles */
-.product-list {
+.product-list, .featured-products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  width: 100%;
 }
 
 .product-card {
@@ -191,6 +195,7 @@ main {
 }
 
 .cart-item-actions {
+  margin-top: 20px;
   display: flex;
   align-items: center;
 }
@@ -324,13 +329,14 @@ main {
   font-size: 0.9rem;
 }
 
-/* Стили для страницы Home */
 .home-page {
+  width: 100%;
   min-height: 100vh;
 }
 
 .hero {
-  height: 60vh;
+  height: 80vh;
+  width: 100%;
   background-image: url('https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');
   background-size: cover;
   background-position: center;
@@ -355,6 +361,7 @@ main {
 .hero-content {
   position: relative;
   z-index: 2;
+  width: 100%;
   max-width: 800px;
   padding: 0 20px;
 }
@@ -389,6 +396,7 @@ main {
 }
 
 .features {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 4rem 2rem;
@@ -413,18 +421,13 @@ main {
 }
 
 .featured-products {
+  width: 100%;
   padding: 4rem 2rem;
   text-align: center;
 }
 
 .featured-products h2 {
   margin-bottom: 2rem;
-}
-
-.featured-products-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 2rem;
 }
 
 .featured-product {
@@ -866,5 +869,140 @@ main {
   
   .feature {
     margin-bottom: 2rem;
+  }
+  
+  .product-list, .featured-products-grid {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-page, .catalog-page, .about-page, .sale-page, .new-page {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body, #root {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.product-description, p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Стили для мобильных элементов управления */
+.mobile-controls {
+  display: none;
+  align-items: center;
+}
+
+.mobile-cart-icon {
+  margin-right: 15px;
+  position: relative;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.mobile-cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #ff4d4d;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+/* Существующие стили для десктопной иконки корзины */
+.desktop-cart-icon {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .mobile-controls {
+    display: flex;
+  }
+  
+  .desktop-cart-icon {
+    display: none;
+  }
+  
+  /* Остальные ваши медиа-запросы */
+}
+
+/* Стили для мобильного меню */
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.menu-toggle span {
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 6px);
+}
+
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -6px);
+}
+
+/* Стили для мобильной навигации */
+@media (max-width: 768px) {
+  .navigation {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background-color: white;
+    padding: 80px 20px;
+    transition: right 0.3s ease-in-out;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  }
+
+  .navigation.active {
+    right: 0;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links li {
+    margin: 15px 0;
+    width: 100%;
+  }
+
+  .nav-links a {
+    font-size: 1.2rem;
   }
 }

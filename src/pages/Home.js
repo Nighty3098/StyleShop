@@ -32,7 +32,7 @@ const Home = ({ addToCart }) => {
         <div className="feature">
           <div className="feature-icon">🚚</div>
           <h3>Fast Delivery</h3>
-          <p>Delivery to any city in Russia within 1-3 days</p>
+          <p>Delivery to any city worldwide within 1-3 days</p>
         </div>
         <div className="feature">
           <div className="feature-icon">💯</div>
@@ -82,18 +82,6 @@ const Home = ({ addToCart }) => {
             <img src="https://images.unsplash.com/photo-1511556820780-d912e42b4980?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Accessories" />
             <h3>ACCESSORIES</h3>
           </Link>
-        </div>
-      </section>
-      
-      {/* Newsletter */}
-      <section className="newsletter">
-        <div className="newsletter-content">
-          <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
-          <p>Receive exclusive offers and updates on the latest collections</p>
-          <form className="newsletter-form">
-            <input type="email" placeholder="Your email" required />
-            <button type="submit">SUBSCRIBE</button>
-          </form>
         </div>
       </section>
     </div>

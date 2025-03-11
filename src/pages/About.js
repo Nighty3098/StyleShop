@@ -5,22 +5,22 @@ const About = () => {
   return (
     <div className="about-page">
       <section className="about-hero">
-        <h1>О LUXE</h1>
-        <p>Искусство стиля, доступное каждому</p>
+        <h1>ABOUT LUXE</h1>
+        <p>The art of style, accessible to everyone</p>
       </section>
       
       <section className="about-story">
         <div className="about-story-content">
-          <h2>Наша История</h2>
+          <h2>Our Story</h2>
           <p>
-            LUXE был основан в 2010 году командой энтузиастов моды, объединенных общей целью: 
-            сделать высокую моду доступной для всех. Мы начинали как небольшой бутик в центре Москвы, 
-            а сегодня представлены в 15 городах России и имеем обширный онлайн-магазин.
+            LUXE was founded in 2010 by a team of fashion enthusiasts united by a common goal: 
+            to make high fashion accessible to everyone. We started as a small boutique in the center of Moscow, 
+            and today we are present in 15 cities across Russia and have an extensive online store.
           </p>
           <p>
-            За эти годы мы сформировали особый подход к выбору коллекций: мы сотрудничаем 
-            как с известными мировыми брендами, так и с молодыми дизайнерами, чьи работы 
-            отличаются оригинальностью и высоким качеством.
+            Over the years, we have developed a special approach to selecting collections: we collaborate 
+            with both well-known global brands and young designers whose works 
+            stand out for their originality and high quality.
           </p>
         </div>
         <div className="about-image">
@@ -39,26 +39,26 @@ const About = () => {
           />
         </div>
         <div className="about-mission-content">
-          <h2>Наша Миссия</h2>
+          <h2>Our Mission</h2>
           <p>
-            Мы верим, что мода – это не только о том, как вы выглядите, но и о том, как вы себя чувствуете. 
-            Наша миссия – помочь каждому клиенту найти свой уникальный стиль, который подчеркнет 
-            индивидуальность и принесет уверенность.
+            We believe that fashion is not just about how you look, but how you feel. 
+            Our mission is to help every client find their unique style that emphasizes 
+            their individuality and brings confidence.
           </p>
           <p>
-            Мы придерживаемся принципов этичной моды и заботимся об окружающей среде, 
-            поэтому постепенно увеличиваем долю экологичных материалов в наших коллекциях и 
-            поддерживаем бренды, разделяющие наши ценности.
+            We adhere to the principles of ethical fashion and care for the environment, 
+            which is why we are gradually increasing the share of eco-friendly materials in our collections and 
+            support brands that share our values.
           </p>
         </div>
       </section>
       
       <section className="about-team">
-        <h2>Наша Команда</h2>
+        <h2>Our Team</h2>
         <p className="team-intro">
-          За каждым предметом одежды в нашем магазине стоит команда профессионалов, 
-          влюбленных в свое дело. От байеров, отбирающих лучшие коллекции со всего мира, 
-          до консультантов, помогающих вам найти идеальный образ.
+          Behind every piece of clothing in our store is a team of professionals 
+          who are passionate about what they do. From buyers selecting the best collections worldwide 
+          to consultants helping you find the perfect look.
         </p>
         
         <div className="team-grid">
@@ -67,37 +67,37 @@ const About = () => {
               src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" 
               alt="Team member" 
             />
-            <h3>Анна Петрова</h3>
-            <p>Основатель и креативный директор</p>
+            <h3>Anna Petrova</h3>
+            <p>Founder and Creative Director</p>
           </div>
           <div className="team-member">
             <img 
               src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" 
               alt="Team member" 
             />
-            <h3>Михаил Соколов</h3>
-            <p>Главный байер</p>
+            <h3>Mikhail Sokolov</h3>
+            <p>Head Buyer</p>
           </div>
           <div className="team-member">
             <img 
               src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80" 
               alt="Team member" 
             />
-            <h3>Екатерина Иванова</h3>
-            <p>Стилист-консультант</p>
+            <h3>Ekaterina Ivanova</h3>
+            <p>Style Consultant</p>
           </div>
         </div>
       </section>
       
       <section className="about-cta">
-        <h2>Станьте Частью Нашей Истории</h2>
+        <h2>Become Part of Our Story</h2>
         <p>
-          Мы приглашаем вас в мир LUXE – мир стиля, качества и уникальности. 
-          Посетите наши магазины или совершите покупку онлайн.
+          We invite you to the world of LUXE – a world of style, quality, and uniqueness. 
+          Visit our stores or shop online.
         </p>
         <div className="cta-buttons">
-          <Link to="/catalog" className="cta-button primary">СМОТРЕТЬ КОЛЛЕКЦИИ</Link>
-          <Link to="/contact" className="cta-button secondary">СВЯЗАТЬСЯ С НАМИ</Link>
+          <Link to="/catalog" className="cta-button primary">VIEW COLLECTIONS</Link>
+          <Link to="/contact" className="cta-button secondary">CONTACT US</Link>
         </div>
       </section>
     </div>
