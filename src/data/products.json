@@ -1,0 +1,184 @@
+{
+  "allProducts": [
+    {
+      "id": 1,
+      "title": "Leather Jacket",
+      "price": 100,
+      "category": "outerwear",
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Stylish black leather jacket with quality hardware.",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Straight Cut Jeans",
+      "price": 70,
+      "category": "pants",
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1026&q=80",
+      "description": "Classic straight cut jeans made from high-quality denim."
+    },
+    {
+      "id": 3,
+      "title": "Oversized T-shirt",
+      "price": 30,
+      "category": "tops",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+      "description": "Loose-fitting oversized t-shirt with print, unisex."
+    },
+    {
+      "id": 4,
+      "title": "Checkered Coat",
+      "price": 354,
+      "category": "outerwear",
+      "image": "https://plus.unsplash.com/premium_photo-1674719144570-0728faf14f96?w=300&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hlY2tlcmVkJTIwQ29hdHxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "Elegant checkered coat of medium length.",
+      "featured": true
+    },
+    {
+      "id": 5,
+      "title": "Running Sneakers",
+      "price": 200,
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1025&q=80",
+      "description": "Light and comfortable running shoes for everyday wear."
+    },
+    {
+      "id": 6,
+      "title": "Linen Shirt",
+      "price": 60,
+      "category": "tops",
+      "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=685&q=80",
+      "description": "Stylish loose-fitting linen shirt, perfect for summer.",
+      "featured": true
+    },
+    {
+      "id": 8,
+      "title": "Midi Dress",
+      "price": 132,
+      "category": "dresses",
+      "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=746&q=80",
+      "description": "Elegant midi dress with floral print."
+    },
+    {
+      "id": 10,
+      "title": "Leather Backpack",
+      "price": 80,
+      "category": "accessories",
+      "image": "https://images.unsplash.com/photo-1622560481156-01fc7e1693e6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Stylish leather backpack with multiple compartments."
+    },
+    {
+      "id": 11,
+      "title": "Silk Blouse",
+      "price": 250,
+      "category": "tops",
+      "image": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "description": "Elegant silk blouse with long sleeves."
+    },
+    {
+      "id": 12,
+      "title": "Pencil Skirt",
+      "price": 130,
+      "category": "skirts",
+      "image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
+      "description": "Elegant pencil skirt of medium length."
+    }
+  ],
+  "newProducts": [
+    {
+      "id": 13,
+      "title": "Winter Puffer Jacket",
+      "price": 130,
+      "image": "https://images.unsplash.com/photo-1608063615781-e2ef8c73d114?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "description": "Warm winter puffer jacket with hood.",
+      "date": "2023-11-01"
+    },
+    {
+      "id": 14,
+      "title": "Chunky Knit Sweater",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1670080589800-6416c8ce8a14?w=300&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fENodW5reSUyMEtuaXQlMjBTd2VhdGVyfGVufDB8fDB8fHww",
+      "description": "Cozy chunky knit sweater for cold weather.",
+      "date": "2023-11-05"
+    },
+    {
+      "id": 103,
+      "title": "Chelsea Boots",
+      "price": 199,
+      "image": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+      "description": "Stylish leather Chelsea boots.",
+      "date": "2023-10-28"
+    },
+    {
+      "id": 104,
+      "title": "Cashmere Scarf",
+      "price": 3990,
+      "image": "https://images.unsplash.com/photo-1601379327928-bedfaf9da2d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "description": "Soft cashmere scarf for cold weather.",
+      "date": "2023-11-02"
+    },
+    {
+      "id": 105,
+      "title": "Crossbody Bag",
+      "price": 7990,
+      "image": "https://images.unsplash.com/photo-1590739225287-bd31519780c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80",
+      "description": "Stylish crossbody bag made from genuine leather.",
+      "date": "2023-11-10"
+    },
+    {
+      "id": 106,
+      "title": "Leather Gloves",
+      "price": 2990,
+      "image": "https://images.unsplash.com/photo-1584359983106-ef9596d73173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "description": "Elegant leather gloves with lining.",
+      "date": "2023-11-08"
+    }
+  ],
+  "saleProducts": [
+    {
+      "id": 201,
+      "title": "Striped Shirt",
+      "price": 20,
+      "originalPrice": 40,
+      "discount": 40,
+      "image": "https://images.unsplash.com/photo-1530332244373-cc3f8d5b113f?w=300&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFN0cmlwZWQlMjBTaGlydHxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "Classic striped shirt made from cotton."
+    },
+    {
+      "id": 203,
+      "title": "Leather Sandals",
+      "price": 80,
+      "originalPrice": 140,
+      "discount": 38,
+      "image": "https://images.unsplash.com/photo-1625318880107-49baad6765fd?w=300&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGVhdGhlciUyMFNhbmRhbHN8ZW58MHx8MHx8fDA%3D",
+      "description": "Stylish leather sandals with flat soles."
+    },
+    {
+      "id": 204,
+      "title": "Silver Bracelet",
+      "price": 230,
+      "originalPrice": 300,
+      "discount": 50,
+      "image": "https://images.unsplash.com/photo-1668619322685-e634175f8182?w=300&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFNpbHZlciUyMEJyYWNlbGV0fGVufDB8fDB8fHww",
+      "description": "Elegant silver bracelet with engraving."
+    },
+    {
+      "id": 205,
+      "title": "Summer Dress",
+      "price": 160,
+      "originalPrice": 200,
+      "discount": 43,
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=783&q=80",
+      "description": "Light summer dress with floral print."
+    },
+    {
+      "id": 206,
+      "title": "Denim Shorts",
+      "price": 30,
+      "originalPrice": 50,
+      "discount": 50,
+      "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "description": "Classic denim shorts with distressed details."
+    }
+  ]
+} 
