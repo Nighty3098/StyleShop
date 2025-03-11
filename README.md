@@ -1,6 +1,6 @@
 <div align="center">
 
-# DREAM COFFEE
+# STYLE SHOP
 
 <br />
 <br />
