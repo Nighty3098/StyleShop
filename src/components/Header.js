@@ -18,7 +18,7 @@ const Header = ({ cartItemsCount, toggleCart }) => {
         <div className="mobile-controls">
           <div className="mobile-cart-icon" onClick={toggleCart}>
             <FontAwesomeIcon icon={faCartShopping} />
-            {cartItemsCount > 0 && <span className="mobile-cart-count">{cartItemsCount}</span>}
+            {cartItemsCount > 0 && <span className="cart-count">{cartItemsCount}</span>}
           </div>
           
           <div className={`menu-toggle ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>

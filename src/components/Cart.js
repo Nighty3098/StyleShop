@@ -8,13 +8,9 @@ const Cart = ({ cartItems, removeFromCart, setCartItems }) => {
 
   // Update product quantity
   const updateQuantity = (id, newQuantity) => {
-    if (newQuantity <= 0) {
-      removeFromCart(id);
-    } else {
-      setCartItems(cartItems.map(item => 
-        item.id === id ? {...item, quantity: newQuantity} : item
-      ));
-    }
+    setCartItems(cartItems.map(item => 
+      item.id === id ? {...item, quantity: newQuantity} : item
+    ));
   };
 
   // Calculate total amount
@@ -37,9 +33,9 @@ const Cart = ({ cartItems, removeFromCart, setCartItems }) => {
       
       {cartItems.map(item => (
         <div key={item.id} className="cart-item" style={{ display: "flex", flexDirection: "column", justifyContent: "flex-start"}}>
-          <div style={{ display: "flex", flexDirection: "row", justifyContent: "flex-start"}}>
+          <div style={{ width: "100%", display: "flex", flexDirection: "row", justifyContent: "flex-start"}}>
           <img 
-            src={item.image} 
+            src={item.image}
             alt={item.title} 
             className="cart-item-image" 
           />

@@ -20,17 +20,7 @@ const New = ({ addToCart }) => {
       <div className="new-banner">
         <h1>New Arrivals</h1>
         <p>Discover the latest additions to our collection</p>
-      </div>
-      
-      <div className="new-collection-info">
-        <h2>Winter Collection 2024/2025</h2>
-        <p>
-          Introducing our new winter collection that combines elegance,
-          comfort, and practicality. Each piece is created with attention to detail 
-          and using high-quality materials to emphasize your individuality.
-        </p>
-      </div>
-      
+      </div>      
       <div className="product-list">
         {sortedProducts.map(product => (
           <Product 

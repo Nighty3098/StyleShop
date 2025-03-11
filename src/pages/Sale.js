@@ -17,14 +17,6 @@ const Sale = ({ addToCart }) => {
         <p>Up to 50% off selected items</p>
       </div>
       
-      <div className="sale-info">
-        <h2>Seasonal Sale</h2>
-        <p>
-          Don't miss the chance to purchase stylish items from past collections at special prices.
-          Limited quantities available!
-        </p>
-      </div>
-      
       <div className="product-list">
         {saleProducts.map(product => (
           <div key={product.id} className="product-card sale-card">
