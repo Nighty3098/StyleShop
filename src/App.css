@@ -136,7 +136,7 @@ main {
 
 .featured-product img {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1/0.5;
   object-fit: cover;
   transition: var(--transition);
   border-radius: 15px;
@@ -218,7 +218,7 @@ main {
 /* Hero Section */
 .hero {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -299,9 +299,15 @@ main {
 /* Home Page Sections */
 .featured-products, .categories {
   max-width: 980px;
+  width: 90%;
   margin: 0 auto;
   padding: var(--spacing-lg) var(--spacing-md);
   text-align: center;
+}
+
+.featured-products, .categories {
+  max-width: 980px;
+  width: 90%;
 }
 
 .featured-products h2, .categories h2 {
@@ -600,7 +606,7 @@ main {
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .navigation {
     position: fixed;
     top: 0;
@@ -660,6 +666,23 @@ main {
   
   .categories-grid {
     grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .categories {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .category {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    height: 300px;
+    width: 100%;
+    transition: var(--transition);
+    text-decoration: none;
   }
   
   .product-list, .featured-products-grid {
@@ -795,7 +818,7 @@ body, #root {
 .category-filters {
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   margin: 0 auto;
