@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import { ProductPropTypes } from './propTypes';
 
 const Product = ({ product, addToCart }) => {
   const formatPrice = (price) => {
@@ -25,5 +27,7 @@ const Product = ({ product, addToCart }) => {
     </div>
   );
 };
+
+Product.propTypes = ProductPropTypes;
 
 export default Product; 

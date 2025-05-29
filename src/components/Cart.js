@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import { CartPropTypes } from './propTypes';
 
 const Cart = ({ cartItems, removeFromCart, setCartItems }) => {
   // Price formatting
@@ -80,5 +82,7 @@ const Cart = ({ cartItems, removeFromCart, setCartItems }) => {
     </div>
   );
 };
+
+Cart.propTypes = CartPropTypes;
 
 export default Cart; 

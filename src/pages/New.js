@@ -11,10 +11,6 @@ const New = ({ addToCart }) => {
     new Date(b.date) - new Date(a.date)
   );
 
-  const formatPrice = (price) => {
-    return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") + " $";
-  };
-
   return (
     <div className="new-page">
       <div className="new-banner">
